@@ -1,5 +1,5 @@
 def log_in(users, username, password):
     if username in users and users[username] == password:
-        print("Login successful! Welcome ")
+        print("Log-in successful! Welcome")
     else:
-        print("Invalid username or password.")
+        print("Invalid username or password")
